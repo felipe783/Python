@@ -10,6 +10,7 @@ def Custos_projeto(P, S,M):
 
 custo_total=Custos_projeto(pessoas,salario,meses)
 #Aqui na variavel custo_final vai lançar na função Custos_projeto os valores da variaveis dentro deo parenteses
+#e a variavel pega o valores q retornou da função e armazena nela
 
 print(f"O custo é:R${custo_total:,.2f}")
 #aqui printa
